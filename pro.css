@@ -4,13 +4,17 @@ body{
 }
 .sec-one{
     display: flex;
-    height: 300px;
+   
     font-size: 30px;
     background-image: url(./img/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 700px;
-
+   margin-bottom: 550px;
 }
+  
+.mar{
+     margin-left: 10px;
+}
+
 .divone{
     width: 50%;
 }
@@ -27,4 +31,74 @@ body{
 .col{
     color: rgb(255, 80, 168);
 }
+.sectwo{
+    display: flex;
+   
+    
+}
+.half{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding: 2px;
 
+}
+.div3 img{
+   width: 100%; 
+}
+.div4{
+    font-size: 30px;
+}
+.text-col{
+    color: tomato;
+}
+.ancor a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: linear-gradient(rgb(231, 24, 52),rgb(35, 14, 230));
+    color: white;
+    border-radius: 10px;
+}
+.mainto{
+    display: flex;
+    
+}
+.ordak{
+
+    width: 40%;
+    float: left;
+   padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    border-left: 10px solid rgb(255, 165, 0);
+   border-radius: 10px;
+   font-size: 30px;
+}
+#style{
+    border-left:7px solid ;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#kome{
+    border-left:7px solid ;
+    border-image:linear-gradient(rgb(15, 173, 23),rgb(33, 107, 204));
+    border-image-slice: 1;
+
+}
+#come{
+    color: rgba(245, 100, 17, 0.767);
+    font-size: 40px;
+ 
+
+}
+.bottom{
+   
+    margin-bottom: 100px;
+}
+.copy{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(252, 9, 58);
+}
