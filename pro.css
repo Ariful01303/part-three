@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.sec-one{
+    display: flex;
+    height: 300px;
+    font-size: 30px;
+
+}
+.divone{
+    width: 50%;
+}
+.divone img{
+    width: 100%;
+}
+.divone a{
+    text-decoration: none;
+    color: blueviolet;
+    background: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.col{
+    color: rgb(255, 80, 168);
+}
